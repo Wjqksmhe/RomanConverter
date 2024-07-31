@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+  
+  }
+  
+  #text {
+    color: white;
+    width: 70%;
+    height: 100px;
+    font-size: 100%;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  #converter,#text,#output {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+  }
+  
+  #converter{
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  #convert-btn {
+    width: 30px;
+    height: 20px;
+    background-color: gray;
+  }
+  
+  #output {
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 70%;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+  }
